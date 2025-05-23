@@ -1,0 +1,15 @@
+type Account @key(fields: "id") {
+  id: ID!
+  holderName: String!
+  balance: Float!
+  transactions: [Transaction]
+}
+
+extend type Query {
+  accounts: [Account]
+  account(id: ID!): Account
+}
+
+extend type Transaction @external {
+  accountId: ID!
+}
