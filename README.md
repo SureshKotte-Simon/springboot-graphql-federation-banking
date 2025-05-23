@@ -106,17 +106,6 @@ query {
 }
 ```
 
----
-
-## 💡 Future Enhancements
-
-- ✅ Replace mock data with real database integration
-- 🔐 Add OAuth2 / JWT-based security
-- 📈 Integrate Prometheus / Grafana monitoring
-- ⚙️ GitHub Actions CI/CD pipeline
-
----
-
 ## 📁 Folder Structure
 
 ```
@@ -138,6 +127,3 @@ springboot-graphql-federation-banking/
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
